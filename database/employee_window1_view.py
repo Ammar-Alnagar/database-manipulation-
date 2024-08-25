@@ -17,7 +17,7 @@ root = Tk()
 # this is the function called when the button is clicked
 def btnClickFunction1():
         conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
         cursorr = conn.cursor()
@@ -43,7 +43,7 @@ def btnClickFunction1():
   
 def btnClickFunction2():        
         conn = pyodbc.connect('Driver={SQL Server};'
-                        'Server=AMMAR\SQLEXPRESS;'
+                        'Server=name\SQLEXPRESS;'
                         'Database=pharmacy_project;'
                         'Trusted_Connection=yes;')
         cursora = conn.cursor()
@@ -66,7 +66,7 @@ def btnClickFunction2():
             
 def btnClickFunction3():
         conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
         cursorb = conn.cursor()
@@ -84,7 +84,7 @@ def btnClickFunction3():
             
 def btnClickFunction4():
         conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
         cursorc = conn.cursor()
@@ -105,7 +105,7 @@ def btnClickFunction4():
   
 def btnClickFunction5():
         conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
 
@@ -122,7 +122,7 @@ def btnClickFunction5():
 
 def btnClickFunction6():
         conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
         cursore = conn.cursor()
