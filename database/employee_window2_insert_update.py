@@ -37,7 +37,7 @@ def btnClickFunction1():
     expiration_date=entry4.get()
     price=entry5.get()
     conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
 
@@ -58,7 +58,7 @@ def btnClickFunction2():
     gender=entry4.get()
     p_address=entry5.get()
     conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
     cursorr = conn.cursor()
@@ -76,7 +76,7 @@ def btnClickFunction3():
     updatefirst_namename=entry1.get()
     updatessn=entry2.get() 
     conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
     cursorr = conn.cursor()
@@ -95,7 +95,7 @@ def btnClickFunction4():
     updatelast_name=entry1.get()
     updatessn=entry2.get() 
     conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
     cursorr = conn.cursor()
@@ -112,7 +112,7 @@ def btnClickFunction5():
     updatenationality=entry1.get()
     updateDid=entry2.get()
     conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=AMMAR\SQLEXPRESS;'
+                      'Server=name\SQLEXPRESS;'
                       'Database=pharmacy_project;'
                       'Trusted_Connection=yes;')
     cursorr = conn.cursor()
